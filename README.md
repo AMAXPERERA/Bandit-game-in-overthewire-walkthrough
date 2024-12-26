@@ -61,7 +61,7 @@ The easiest way to see the contents in the file is to go by pressing the command
 To handle a file named dash in the windows powershell, you need to first try to access it by typing cd ./- . But will it work,let's see what kind of result we get;
 
 This is the result we get,
-![image](https://github.com/user-attachments/assets/dc94eed4-afa6-40f7-9a11-6cacd4433f72)
+![image](https://github.com/user-attachments/assets/dc94eed4-afa6-40f7-9a11-6cacd4433f72) <br>
 It says that the file we tried to access is not a directory then try to retreive the value in the file by typing the command.
 
 <pre><code>cat ./- </code></pre>
