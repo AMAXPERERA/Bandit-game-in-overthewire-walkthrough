@@ -42,7 +42,7 @@ Then successfully you will get the password for the next level.Password will be 
 
 ![image](https://github.com/user-attachments/assets/75befae7-6578-442d-be64-44de358c73d0)
 
-# Level 0 ----> Level 1
+# Level 1 ----> Level 2
 
 To go from level 0 to level 1, we need to type the code in the windows powershell as;
         <pre><code>ssh bandit1@bandit.labs.overthewire.org -p 2220 </code></pre>
@@ -72,3 +72,23 @@ This gives us the password or code to the next level,
 
 <pre><code>263JGJPfgU6LtdEvgfWU1XP5yac29mFx</code></pre>
 
+# Level 2 ----> Level 3
+
+As we look at the instructions of this given file we need to find the password stored in the next level by accessing to the level.<br>
+![image](https://github.com/user-attachments/assets/000c9f83-f367-46e7-9daa-bd2bc3084609)
+
+So first we access the level by typing;
+<pre><code>ssh bandit2@bandit.labs.overthewire.org -p 2220</code></pre>
+
+Then type the password you found from the previous level and access the level, once you access it you will get something like this.
+<br><br>
+![image](https://github.com/user-attachments/assets/af5ca8af-7f3d-4386-b1b9-a1d306211522)
+
+<br>
+As soon as you get access to the level, the first and foremost command you should type in here is;
+<pre><code>ls</code></pre>
+
+Then check the contents of the file.
+![image](https://github.com/user-attachments/assets/de7f57b5-1684-41e9-9d8d-2bbe27078820)
+
+![image](https://github.com/user-attachments/assets/e7f08850-342b-4940-bd39-fda61c6ad0ac)
