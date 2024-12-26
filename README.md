@@ -67,7 +67,7 @@ It says that the file we tried to access is not a directory then try to retreive
 <pre><code>cat ./- </code></pre>
 <h3>The result we get here is shown below in the picture: </h3>
 
-![image](https://github.com/user-attachments/assets/d5e1a014-11bf-43be-891e-588dc9d9cb85)
+![image](https://github.com/user-attachments/assets/d5e1a014-11bf-43be-891e-588dc9d9cb85) <br>
 This gives us the password or code to the next level,
 
 <pre><code>263JGJPfgU6LtdEvgfWU1XP5yac29mFx</code></pre>
